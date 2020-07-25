@@ -56,6 +56,8 @@ form.addEventListener("submit", function(event) {
             faultyItems.style.visibility = 'visible';
             launchStatus.innerHTML = 'Shuttle is ready for launch';
             launchStatus.style.color = 'green';
+            cargoStatus.innerHTML = 'Cargo weight acceptable for take-off.';
+            fuelStatus.innerHTML = 'Fuel level acceptable for take-off.';
          }
       }
       
